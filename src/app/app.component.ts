@@ -1,4 +1,6 @@
 import { Component } from '@angular/core';
+import { Student } from './Models/student';
+// import { StudentService } from './Services/shared-api.service';
 
 @Component({
   selector: 'app-root',
@@ -7,4 +9,5 @@ import { Component } from '@angular/core';
 })
 export class AppComponent {
   title = 'project1';
+  
 }

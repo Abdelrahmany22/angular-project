@@ -1,0 +1,34 @@
+
+ <div class="container mt-5 col-6">
+    <div class="card" style="background-color: grey;">
+        <div class="card-body">
+            <table class="table">
+                <thead class="thead-dark">
+                  <tr>
+                    <th scope="col">id</th>
+                    <th scope="col">name</th>
+                    <th scope="col">age</th>
+                    <th scope="col">action</th>
+                  </tr>
+                </thead>
+                <tbody>
+                  <tr *ngFor="let item of teacher">
+                    <th scope="row">{{item.id}}</th>
+                    <td>{{item.name}}</td>
+                    <td>{{item.age}}</td>
+                    <td><button (click)="deleteTeacher(item.id)" class="btn btn-danger btn-sm">Delete</button>
+                      <a href="/editteacher/{{item.id}}" class="btn btn-info btn-sm ">Edit</a>
+                    </td>
+                  
+                  </tr>
+                 
+                  
+                </tbody>
+              </table>
+              
+             
+                 
+              
+        </div>
+    </div>
+ </div>
