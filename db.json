@@ -1,0 +1,46 @@
+{
+  "student": [
+    {
+      "id": 1,
+      "name": "bodyyyyy uuupdate",
+      "age": 22
+    },
+    {
+      "name": "haamasa",
+      "age": 30,
+      "id": 2
+    },
+    {
+      "id": 3,
+      "name": "boood",
+      "age": 16
+    },
+    {
+      "name": "abdoooo",
+      "age": 23,
+      "id": 4
+    }
+  ],
+  "teacher": [
+    {
+      "id": 1,
+      "name": "bodyyyyy uuu tupdate",
+      "age": 22
+    },
+    {
+      "name": "haamasa t",
+      "age": 30,
+      "id": 2
+    },
+    {
+      "id": 3,
+      "name": "boood t",
+      "age": 16
+    },
+    {
+      "name": "hhh",
+      "age": 4,
+      "id": 4
+    }
+  ]
+}
